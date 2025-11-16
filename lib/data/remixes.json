@@ -1,0 +1,335 @@
+{
+  "diningHalls": [
+    {
+      "id": "marketplace",
+      "name": "Marketplace",
+      "stations": ["Grill", "Pizza", "Salad Bar", "Asian Station", "Pasta Bar", "Dessert"],
+      "addons": ["Fresh Fruit", "Hot Sauce", "Ranch", "Honey", "Peanut Butter", "Chocolate Chips"]
+    },
+    {
+      "id": "pitchforks",
+      "name": "Pitchforks",
+      "stations": ["Burgers", "Fries", "Sandwiches", "Salad Bar", "Grill"],
+      "addons": ["BBQ Sauce", "Mayo", "Ketchup", "Pickles", "Onions", "Cheese"]
+    },
+    {
+      "id": "west-union",
+      "name": "West Union",
+      "stations": ["Il Forno Pizza", "Ginger + Soy", "The Skillet", "McDonald's", "Coffee Bar"],
+      "addons": ["Syrup", "Hot Sauce", "Soy Sauce", "Sriracha", "Parmesan", "Red Pepper Flakes"]
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity Café",
+      "stations": ["Sandwiches", "Soup", "Salad Bar", "Bakery", "Coffee"],
+      "addons": ["Cream Cheese", "Avocado", "Tomatoes", "Cucumbers", "Honey Mustard", "Balsamic"]
+    }
+  ],
+  "presetRemixes": [
+    {
+      "id": "1",
+      "diningHall": "marketplace",
+      "title": "The Breakfast Pizza",
+      "stations": ["Pizza", "Grill"],
+      "addons": ["Ranch", "Hot Sauce"],
+      "ingredients": [
+        "1 slice cheese pizza",
+        "2 scrambled eggs from grill",
+        "Bacon bits",
+        "Hot sauce",
+        "Ranch drizzle"
+      ],
+      "steps": [
+        "Get a fresh slice of cheese pizza from the pizza station",
+        "Top with scrambled eggs from the grill station",
+        "Add crispy bacon bits",
+        "Drizzle with ranch and hot sauce",
+        "Fold in half like a taco if you're brave"
+      ],
+      "whyItWorks": "The warm pizza crust acts as the perfect base for breakfast toppings. The combination of cheese, eggs, and bacon hits all the breakfast food groups, while hot sauce and ranch add the perfect kick."
+    },
+    {
+      "id": "2",
+      "diningHall": "marketplace",
+      "title": "Asian Fusion Bowl",
+      "stations": ["Asian Station", "Salad Bar"],
+      "addons": ["Soy Sauce", "Sriracha"],
+      "ingredients": [
+        "Base of fried rice from Asian station",
+        "Mixed greens from salad bar",
+        "Edamame",
+        "Cucumber slices",
+        "Teriyaki chicken",
+        "Sriracha drizzle"
+      ],
+      "steps": [
+        "Start with a base of fried rice in your bowl",
+        "Add a layer of fresh mixed greens",
+        "Top with teriyaki chicken from Asian station",
+        "Add edamame and cucumber from salad bar",
+        "Drizzle with extra soy sauce and sriracha",
+        "Mix everything together"
+      ],
+      "whyItWorks": "Combines the warmth of fried rice with the crunch of fresh vegetables. The hot and cold contrast makes every bite interesting, and you're getting protein, carbs, and veggies in one bowl."
+    },
+    {
+      "id": "3",
+      "diningHall": "marketplace",
+      "title": "Dessert Pasta",
+      "stations": ["Pasta Bar", "Dessert"],
+      "addons": ["Chocolate Chips", "Honey"],
+      "ingredients": [
+        "Plain pasta (no sauce)",
+        "Butter",
+        "Chocolate chips",
+        "Honey",
+        "Ice cream from dessert station",
+        "Crushed graham crackers"
+      ],
+      "steps": [
+        "Get plain buttered pasta (no marinara!)",
+        "While still warm, mix in chocolate chips until melted",
+        "Drizzle with honey",
+        "Top with a scoop of vanilla ice cream",
+        "Sprinkle crushed graham crackers on top"
+      ],
+      "whyItWorks": "Warm pasta melts the chocolate chips perfectly. The butter makes it rich, honey adds sweetness, and ice cream cools it down. It's basically a deconstructed s'mores pasta."
+    },
+    {
+      "id": "4",
+      "diningHall": "pitchforks",
+      "title": "Loaded Fry Burger Bowl",
+      "stations": ["Burgers", "Fries"],
+      "addons": ["BBQ Sauce", "Cheese", "Onions"],
+      "ingredients": [
+        "Fries as the base",
+        "Burger patty (chopped)",
+        "Shredded cheese",
+        "Grilled onions",
+        "BBQ sauce",
+        "Pickles"
+      ],
+      "steps": [
+        "Fill bowl with crispy fries",
+        "Chop up a burger patty into bite-size pieces",
+        "Layer patty pieces over fries while hot",
+        "Add shredded cheese so it melts",
+        "Top with grilled onions and pickles",
+        "Drizzle BBQ sauce generously"
+      ],
+      "whyItWorks": "It's a deconstructed burger with extra fries. The hot fries and burger melt the cheese perfectly. Every bite has burger, fries, and toppings - way better than eating them separately."
+    },
+    {
+      "id": "5",
+      "diningHall": "pitchforks",
+      "title": "The Grilled Cheese Burger",
+      "stations": ["Burgers", "Grill"],
+      "addons": ["Cheese", "Mayo"],
+      "ingredients": [
+        "2 grilled cheese sandwiches",
+        "Burger patty",
+        "Lettuce",
+        "Tomato",
+        "Mayo"
+      ],
+      "steps": [
+        "Make two grilled cheese sandwiches",
+        "Use them as the 'buns' for your burger",
+        "Place burger patty between the grilled cheeses",
+        "Add lettuce, tomato, and mayo",
+        "Press down and cut in half"
+      ],
+      "whyItWorks": "Why choose between a burger and grilled cheese when you can have both? The crispy grilled cheese adds an extra cheese layer and crunch. It's excessive and amazing."
+    },
+    {
+      "id": "6",
+      "diningHall": "west-union",
+      "title": "Pizza Egg Roll Fusion",
+      "stations": ["Il Forno Pizza", "Ginger + Soy"],
+      "addons": ["Soy Sauce", "Parmesan"],
+      "ingredients": [
+        "2 slices pepperoni pizza",
+        "Lo mein noodles from Ginger + Soy",
+        "Stir-fried vegetables",
+        "Parmesan cheese",
+        "Soy sauce for dipping"
+      ],
+      "steps": [
+        "Get lo mein and veggies from Ginger + Soy",
+        "Place noodles and veggies on pizza slice",
+        "Sprinkle extra parmesan",
+        "Fold pizza slice over like a taco",
+        "Use second slice to make another",
+        "Dip in soy sauce"
+      ],
+      "whyItWorks": "East meets West in the best way. The pizza crust holds Asian noodles perfectly. It's like a fusion egg roll with Italian bread. Weird? Yes. Delicious? Also yes."
+    },
+    {
+      "id": "7",
+      "diningHall": "west-union",
+      "title": "Breakfast Skillet Sandwich",
+      "stations": ["The Skillet", "McDonald's"],
+      "addons": ["Syrup", "Hot Sauce"],
+      "ingredients": [
+        "Pancakes from The Skillet",
+        "Sausage patty from McDonald's",
+        "Scrambled eggs",
+        "Maple syrup",
+        "Hot sauce"
+      ],
+      "steps": [
+        "Get two pancakes from The Skillet",
+        "Add sausage patty and scrambled eggs between them",
+        "Drizzle with maple syrup",
+        "Add a few drops of hot sauce for kick",
+        "Eat like a sandwich"
+      ],
+      "whyItWorks": "The McGriddle at home! Sweet and savory breakfast in portable form. The syrup soaks into the pancakes while the hot sauce balances the sweetness. Perfect for eating on the go."
+    },
+    {
+      "id": "8",
+      "diningHall": "west-union",
+      "title": "The Coffee Shop Shake",
+      "stations": ["Coffee Bar", "McDonald's"],
+      "addons": ["Syrup", "Chocolate Chips"],
+      "ingredients": [
+        "McDonald's vanilla shake",
+        "Shot of espresso from coffee bar",
+        "Chocolate syrup",
+        "Whipped cream",
+        "Chocolate chips"
+      ],
+      "steps": [
+        "Get a vanilla shake from McDonald's",
+        "Add a shot of espresso for coffee flavor",
+        "Drizzle chocolate syrup",
+        "Top with whipped cream",
+        "Sprinkle chocolate chips",
+        "Stir with straw"
+      ],
+      "whyItWorks": "It's an affogato meets milkshake. The espresso adds sophistication to the shake. Perfect afternoon pick-me-up with dessert vibes but coffee energy."
+    },
+    {
+      "id": "9",
+      "diningHall": "trinity",
+      "title": "The Ultimate Avocado Toast",
+      "stations": ["Sandwiches", "Salad Bar", "Bakery"],
+      "addons": ["Avocado", "Tomatoes", "Balsamic"],
+      "ingredients": [
+        "Toasted sourdough from bakery",
+        "Mashed avocado",
+        "Cherry tomatoes from salad bar",
+        "Everything bagel seasoning",
+        "Balsamic glaze",
+        "Microgreens"
+      ],
+      "steps": [
+        "Toast thick sourdough bread",
+        "Mash avocado with fork and spread generously",
+        "Top with halved cherry tomatoes",
+        "Sprinkle everything bagel seasoning",
+        "Add microgreens for crunch",
+        "Drizzle with balsamic glaze"
+      ],
+      "whyItWorks": "Café-quality avocado toast for dining hall prices. The everything seasoning adds the perfect savory crunch, while balsamic gives it a gourmet touch. Instagram-worthy and filling."
+    },
+    {
+      "id": "10",
+      "diningHall": "trinity",
+      "title": "Grilled Cheese Tomato Soup Dippers",
+      "stations": ["Sandwiches", "Soup"],
+      "addons": ["Cheese", "Tomatoes"],
+      "ingredients": [
+        "Grilled cheese sandwich",
+        "Tomato basil soup",
+        "Extra cheese",
+        "Fresh basil from salad bar",
+        "Black pepper"
+      ],
+      "steps": [
+        "Make grilled cheese with extra cheese",
+        "Cut into strips for dipping",
+        "Get a large cup of tomato soup",
+        "Add fresh basil to soup",
+        "Season with black pepper",
+        "Dip and enjoy the ultimate comfort combo"
+      ],
+      "whyItWorks": "Classic combo but optimized. Cutting the grilled cheese into strips maximizes dipping surface area. The fresh basil elevates the canned soup. Pure comfort food perfection."
+    },
+    {
+      "id": "11",
+      "diningHall": "trinity",
+      "title": "Bakery Parfait",
+      "stations": ["Bakery", "Salad Bar"],
+      "addons": ["Honey", "Fresh Fruit"],
+      "ingredients": [
+        "Croissant from bakery",
+        "Yogurt from salad bar",
+        "Fresh berries",
+        "Granola",
+        "Honey drizzle",
+        "Crushed almonds"
+      ],
+      "steps": [
+        "Tear croissant into bite-sized pieces",
+        "Layer yogurt in a bowl",
+        "Add croissant pieces",
+        "Top with fresh berries and granola",
+        "Drizzle honey generously",
+        "Sprinkle crushed almonds"
+      ],
+      "whyItWorks": "Buttery croissant pieces soak up the yogurt like French toast. It's fancier than regular parfait and more interesting. The texture contrast between soft croissant and crunchy granola is perfect."
+    },
+    {
+      "id": "12",
+      "diningHall": "marketplace",
+      "title": "The Mediterranean Flatbread",
+      "stations": ["Pizza", "Salad Bar"],
+      "addons": ["Balsamic", "Fresh Fruit"],
+      "ingredients": [
+        "Plain pizza dough/flatbread",
+        "Hummus from salad bar",
+        "Cucumber slices",
+        "Cherry tomatoes",
+        "Feta cheese",
+        "Olive oil and balsamic"
+      ],
+      "steps": [
+        "Get a plain flatbread or cheese-less pizza base",
+        "Spread hummus as the base instead of sauce",
+        "Top with cucumber slices and halved cherry tomatoes",
+        "Crumble feta cheese on top",
+        "Drizzle with olive oil and balsamic",
+        "Add fresh herbs if available"
+      ],
+      "whyItWorks": "A healthier pizza alternative with Mediterranean flavors. The hummus adds protein and creaminess. It's refreshing, filling, and feels lighter than regular pizza while still being satisfying."
+    }
+  ],
+  "remixTemplates": [
+    {
+      "pattern": "breakfast-on-dinner",
+      "title": "Breakfast {item} Remix",
+      "description": "Turn dinner items into breakfast"
+    },
+    {
+      "pattern": "dessert-fusion",
+      "title": "Sweet {item} Surprise",
+      "description": "Make savory items sweet"
+    },
+    {
+      "pattern": "loaded-bowl",
+      "title": "Loaded {base} Bowl",
+      "description": "Build everything into a bowl"
+    },
+    {
+      "pattern": "sandwich-hybrid",
+      "title": "The {item1} {item2} Sandwich",
+      "description": "Combine two stations in a sandwich"
+    },
+    {
+      "pattern": "international-fusion",
+      "title": "{cuisine1} Meets {cuisine2}",
+      "description": "Blend two different cuisines"
+    }
+  ]
+}
